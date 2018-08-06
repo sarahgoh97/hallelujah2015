@@ -1,0 +1,76 @@
+﻿<Window x:Class="BackgroundManager"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="600" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#FFF5C072" WindowStyle="None" BorderThickness="1" BorderBrush="#FF3E1B06">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="Control.IsEnabled" Value="False">
+                    <Setter Property="Control.Opacity" Value="0.3" />
+                </Trigger>
+                <Trigger Property="Control.IsEnabled" Value="True">
+                    <Setter Property="Control.Opacity" Value="0.8" />
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Opacity" Value="1"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Stop" Executed="BMCancel" />
+    </Window.CommandBindings>
+    <Grid>
+        <TextBlock Margin="15,10,0,0" Name="PKTitle" Text="Background Manager" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF6B2D09" FontWeight="Bold" FontSize="20"/>
+        <TextBlock Margin="15,42,0,0" Name="PKInstruction" Text="Manage and select background images" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF6B2D09" FontWeight="Bold" />
+        <Button x:Name="BMExitButton" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,62,15,0" Height="50" Width="50" BorderThickness="0" Command="ApplicationCommands.Stop">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Log Out.ico"/>
+            </Button.Background>
+            <Button.ToolTip>
+                <TextBlock>
+                    <Run FontWeight="Bold" Text="Exit (Esc)"/>
+                    <LineBreak/>
+                    Exit Background Manager
+                </TextBlock>
+            </Button.ToolTip>
+        </Button>
+        <Button x:Name="BMPrev" Width="50" Height="50" Margin="50,0,0,0" HorizontalAlignment="Left">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Previous.ico"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="BMNext" Width="50" Height="50" Margin="0,0,50,0" HorizontalAlignment="Right">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Next.ico"/>
+            </Button.Background>
+        </Button>
+
+        <ListBox x:Name="BMList" Height="450" Width="500" Margin="0,50,0,0">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Padding" Value="30 0 30 0" />
+                </Style>
+            </ListBox.ItemContainerStyle>
+            <TextBlock Text="Image1  " />
+            <TextBlock Text="Image2  " />
+            <TextBlock Text="Image3  " />
+            <TextBlock Text="Image4  " />
+            <TextBlock Text="Image5  " />
+            <TextBlock Text="Image6  " />
+            <TextBlock Text="Image7  " />
+        </ListBox>
+    </Grid>
+</Window>

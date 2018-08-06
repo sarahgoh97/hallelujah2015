@@ -1,0 +1,123 @@
+﻿<Window x:Class="HelpFile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="600" Width="600" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#FFF5C072" BorderBrush="#FF3E1B06" WindowStyle="None" BorderThickness="1">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="Control.IsEnabled" Value="False">
+                    <Setter Property="Control.Opacity" Value="0.3" />
+                </Trigger>
+                <Trigger Property="Control.IsEnabled" Value="True">
+                    <Setter Property="Control.Opacity" Value="0.8" />
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Opacity" Value="1"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Stop" Executed="HFExit" />
+    </Window.CommandBindings>
+    <Grid>
+        <Button x:Name="MWExitButton" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,5,0" Height="40" Width="40" BorderThickness="0" Command="ApplicationCommands.Stop">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Log Out.ico"/>
+            </Button.Background>
+            <Button.ToolTip>
+                <TextBlock>
+                    <Run FontWeight="Bold" Text="Exit (Esc)"/>
+                    <LineBreak/>
+                    Exit Help
+                </TextBlock>
+            </Button.ToolTip>
+        </Button>
+        <TabControl Margin="0,25,0,0" Background="{x:Null}" >
+            <TabItem Header="Main Window" Background="{x:Null}">
+                <Grid>
+                    <TextBlock Margin="10,20,10,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Justify" Grid.ColumnSpan="2">
+                        <Underline><Bold>Search for Songs</Bold></Underline><LineBreak />
+                        To search for songs, select the <Bold>Key</Bold> and <Bold>Time Signature</Bold>, and key in the <Bold>Title</Bold>, <Bold>Author</Bold> and <Bold>Reference</Bold>.<LineBreak />
+                        The <Bold>Songs</Bold> list will be updated with each character typed in the corresponding search boxes.
+                        <LineBreak /><LineBreak />
+                        <Underline><Bold>Songs</Bold></Underline><LineBreak />
+                        To add a new song, click <InlineUIContainer><Image Source="Resources/Add.ico" Width="15" /></InlineUIContainer> or press Ctrl+N.<LineBreak />
+                        To edit a song, select the song from the <Bold>Songs</Bold> list, and click <InlineUIContainer><Image Source="Resources/Edit.ico" Width="15" /></InlineUIContainer> or press Ctrl+E.<LineBreak />
+                        To delete a song, select the song from the <Bold>Songs</Bold> list, and click <InlineUIContainer><Image Source="Resources/Delete.ico" Width="15" /></InlineUIContainer> or press Del.<LineBreak />
+                        <LineBreak />
+                        <Underline><Bold>Playlist</Bold></Underline><LineBreak />
+                        To add a song to the <Bold>Playlist</Bold>, select the song from the <Bold>Songs</Bold> list, and click <InlineUIContainer><Image Source="Resources/Next.ico" Width="15" /></InlineUIContainer> or press Alt+Right.<LineBreak />
+                        To remove a song from the <Bold>Playlist</Bold>, select the song from the <Bold>Playlist</Bold>, and click <InlineUIContainer><Image Source="Resources/Previous.ico" Width="15" /></InlineUIContainer> or press Alt+Left.<LineBreak />
+                        To shift up a song in the <Bold>Playlist</Bold>, select the song from the <Bold>Playlist</Bold>, and click <InlineUIContainer><Image Source="Resources/Stock Index Up.ico" Width="15" /></InlineUIContainer> or press Alt+Up.<LineBreak />
+                        [If there are more than one song in the <Bold>Playlist</Bold> and the selected song is not the first song in the <Bold>Playlist</Bold>.]<LineBreak />
+                        To shift down a song in the <Bold>Playlist</Bold>, select the song from the <Bold>Playlist</Bold>, and click <InlineUIContainer><Image Source="Resources/Stock Index Down.ico" Width="15" /></InlineUIContainer> or press Alt+Down.<LineBreak />
+                        [If there are more than one song in the <Bold>Playlist</Bold> and the selected song is not the last song in the <Bold>Playlist</Bold>.]<LineBreak />
+                        <LineBreak />
+                        <Underline><Bold>Begin Worship</Bold></Underline><LineBreak />
+                        To begin worship, click <InlineUIContainer><Image Source="Resources/Play.ico" Width="15" /></InlineUIContainer> or press F5. [If there are songs in the <Bold>Playlist</Bold>.]<LineBreak />
+                        <LineBreak />
+                        <Underline><Bold>Exit Application</Bold></Underline><LineBreak />
+                        To exit the application, click <InlineUIContainer><Image Source="Resources/Log Out.ico" Width="15" /></InlineUIContainer> or press Alt+F4.
+                    </TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Add/Edit Song" Background="{x:Null}">
+                <Grid>
+                    <TextBlock Margin="10,20,10,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Justify" Grid.ColumnSpan="2">
+                        <Bold>Title</Bold>, <Bold>Key</Bold> &amp; <Bold>Time Signature</Bold> are mandatory fields.<LineBreak />
+                        <LineBreak />
+                        <Underline><Bold>Lyrics Type</Bold></Underline><LineBreak />
+                        Select appropriate <Bold>Lyrics Type</Bold> from the dropdown box.<LineBreak />
+                        Copy &amp; paste or key in the lyrics in the text block and click <InlineUIContainer><Image Source="Resources/Save.ico" Width="15" /></InlineUIContainer>.<LineBreak />
+                        The saved <Bold>Lyrics Type</Bold> will be displayed in the <Bold>Lyrics Type</Bold> list.<LineBreak />
+                        Repeat the process above to add more <Bold>Lyrics Type</Bold>.<LineBreak />
+                        <LineBreak />
+                        To edit a <Bold>Lyrics Type</Bold>, select it from the <Bold>Lyrics Type</Bold> list, make changes in the text block and click <InlineUIContainer><Image Source="Resources/Save.ico" Width="15" /></InlineUIContainer>.<LineBreak />
+                        [<Bold>Lyrics Type</Bold> can be saved only when changes are made.]<LineBreak />
+                        To delete a <Bold>Lyrics Type</Bold>, select it from the <Bold>Lyrics Type</Bold> list and click <InlineUIContainer><Image Source="Resources/Delete.ico" Width="15" /></InlineUIContainer>.<LineBreak />
+                        <LineBreak />
+                        <Underline><Bold>Default Sequence</Bold></Underline><LineBreak />
+                        To add a <Bold>Lyrics Type</Bold> to the <Bold>Default Sequence</Bold>, select it from the <Bold>Lyrics Type</Bold> list and click <InlineUIContainer><Image Source="Resources/Next.ico" Width="15" /></InlineUIContainer>.<LineBreak />
+                        To remove a <Bold>Lyrics Type</Bold> from the <Bold>Default Sequence</Bold>, select it from the <Bold>Default Sequence</Bold> and click <InlineUIContainer><Image Source="Resources/Previous.ico" Width="15" /></InlineUIContainer>.<LineBreak />
+                        To shift up a <Bold>Lyrics Type</Bold> in the <Bold>Default Sequence</Bold>, select it from the <Bold>Default Sequence</Bold> and click <InlineUIContainer><Image Source="Resources/Stock Index Up.ico" Width="15" /></InlineUIContainer>.<LineBreak />
+                        [If there are more than one <Bold>Lyrics Type</Bold> in the <Bold>Default Sequence</Bold> and the selected <Bold>Lyrics Type</Bold> is not the first <Bold>Lyrics Type</Bold> in the <Bold>Default Sequence</Bold>.]<LineBreak />
+                        To shift down a <Bold>Lyrics Type</Bold> in the <Bold>Default Sequence</Bold>, by select it from the <Bold>Default Sequence</Bold> and click <InlineUIContainer><Image Source="Resources/Stock Index Down.ico" Width="15" /></InlineUIContainer>.<LineBreak />
+                        [If there are more than one <Bold>Lyrics Type</Bold> in the <Bold>Default Sequence</Bold> and the selected <Bold>Lyrics Type</Bold> is not the last <Bold>Lyrics Type</Bold> in the <Bold>Default Sequence</Bold>.]<LineBreak />
+                        <LineBreak />
+                        <Underline><Bold>Save Changes</Bold></Underline><LineBreak />
+                        To save changes to the song, click <InlineUIContainer><Image Source="Resources/Check.ico" Width="15" /></InlineUIContainer>. [If all mandatory fields are filled up.]
+                    </TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Presentation Keys" Background="{x:Null}">
+                <Grid>
+                    <TextBlock Margin="10,20,10,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Justify" Grid.ColumnSpan="2">
+                        To replace shortcut key for a particular action, click on the corresponding button to the right of the action.<LineBreak />
+                        When prompted, press a key to assign it as the shortcut to execute the action. <LineBreak /><LineBreak />
+                        Note: The shortcut key has to be a single key without Ctrl, Alt or Shift. These special keys will be considered as shortcut keys by themselves.
+                    </TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Presentation Settings" Background="{x:Null}">
+                <Grid>
+                    <TextBlock Margin="10,20,10,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Justify" Grid.ColumnSpan="2">
+                        To change the background color, left click background.<LineBreak />
+                        To change the background image, right click background.<LineBreak />
+                        To change font and color of title, left click title.<LineBreak />
+                        To change font and color of lyrics, left click lyrics.<LineBreak />
+                        To get more color options for title or lyrics, right click title or lyrics.
+                    </TextBlock>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
