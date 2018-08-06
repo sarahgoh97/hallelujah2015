@@ -1,0 +1,164 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="DBConnection" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Hallelujah.mdf;Integrated Security=True;Connect Timeout=30&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Hallelujah.mdf;Integrated Security=True;Connect Timeout=30</Value>
+    </Setting>
+    <Setting Name="KeyList" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Ab major&lt;/string&gt;
+  &lt;string&gt;Ab minor&lt;/string&gt;
+  &lt;string&gt;A major&lt;/string&gt;
+  &lt;string&gt;A minor&lt;/string&gt;
+  &lt;string&gt;A# major&lt;/string&gt;
+  &lt;string&gt;A# minor&lt;/string&gt;
+  &lt;string&gt;Bb major&lt;/string&gt;
+  &lt;string&gt;Bb minor&lt;/string&gt;
+  &lt;string&gt;B major&lt;/string&gt;
+  &lt;string&gt;B minor&lt;/string&gt;
+  &lt;string&gt;B# major&lt;/string&gt;
+  &lt;string&gt;B# minor&lt;/string&gt;
+  &lt;string&gt;Cb major&lt;/string&gt;
+  &lt;string&gt;Cb minor&lt;/string&gt;
+  &lt;string&gt;C major&lt;/string&gt;
+  &lt;string&gt;C minor&lt;/string&gt;
+  &lt;string&gt;C# major&lt;/string&gt;
+  &lt;string&gt;C# minor&lt;/string&gt;
+  &lt;string&gt;Db major&lt;/string&gt;
+  &lt;string&gt;Db minor&lt;/string&gt;
+  &lt;string&gt;D major&lt;/string&gt;
+  &lt;string&gt;D minor&lt;/string&gt;
+  &lt;string&gt;D# major&lt;/string&gt;
+  &lt;string&gt;D# minor&lt;/string&gt;
+  &lt;string&gt;Eb major&lt;/string&gt;
+  &lt;string&gt;Eb minor&lt;/string&gt;
+  &lt;string&gt;E major&lt;/string&gt;
+  &lt;string&gt;E minor&lt;/string&gt;
+  &lt;string&gt;E# major&lt;/string&gt;
+  &lt;string&gt;E# minor&lt;/string&gt;
+  &lt;string&gt;Fb major&lt;/string&gt;
+  &lt;string&gt;Fb minor&lt;/string&gt;
+  &lt;string&gt;F major&lt;/string&gt;
+  &lt;string&gt;F minor&lt;/string&gt;
+  &lt;string&gt;F# major&lt;/string&gt;
+  &lt;string&gt;F# minor&lt;/string&gt;
+  &lt;string&gt;Gb major&lt;/string&gt;
+  &lt;string&gt;Gb minor&lt;/string&gt;
+  &lt;string&gt;G major&lt;/string&gt;
+  &lt;string&gt;G minor&lt;/string&gt;
+  &lt;string&gt;G# major&lt;/string&gt;
+  &lt;string&gt;G# minor&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="TimeSignList" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;2/2&lt;/string&gt;
+  &lt;string&gt;2/4&lt;/string&gt;
+  &lt;string&gt;3/4&lt;/string&gt;
+  &lt;string&gt;3/8&lt;/string&gt;
+  &lt;string&gt;4/2&lt;/string&gt;
+  &lt;string&gt;4/4&lt;/string&gt;
+  &lt;string&gt;6/8&lt;/string&gt;
+  &lt;string&gt;9/8&lt;/string&gt;
+  &lt;string&gt;12/8&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="LyricsTypeList" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Intro&lt;/string&gt;
+  &lt;string&gt;Verse&lt;/string&gt;
+  &lt;string&gt;Pre-chorus&lt;/string&gt;
+  &lt;string&gt;Chorus&lt;/string&gt;
+  &lt;string&gt;Bridge&lt;/string&gt;
+  &lt;string&gt;Outro&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="LyricsColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="TitleColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Yellow</Value>
+    </Setting>
+    <Setting Name="LyricsFont" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Microsoft Sans Serif, 24pt, style=Bold</Value>
+    </Setting>
+    <Setting Name="TitleFont" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Microsoft Sans Serif, 36pt, style=Bold</Value>
+    </Setting>
+    <Setting Name="BGColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="JumpSong1Key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D1</Value>
+    </Setting>
+    <Setting Name="JumpSong2Key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D2</Value>
+    </Setting>
+    <Setting Name="JumpSong3Key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D3</Value>
+    </Setting>
+    <Setting Name="JumpSong4Key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D4</Value>
+    </Setting>
+    <Setting Name="JumpSong5Key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D5</Value>
+    </Setting>
+    <Setting Name="JumpSong6Key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D6</Value>
+    </Setting>
+    <Setting Name="JumpSong7Key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D7</Value>
+    </Setting>
+    <Setting Name="JumpSong8Key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D8</Value>
+    </Setting>
+    <Setting Name="JumpSong9Key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D9</Value>
+    </Setting>
+    <Setting Name="JumpSong10Key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D0</Value>
+    </Setting>
+    <Setting Name="PrevSongKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Left</Value>
+    </Setting>
+    <Setting Name="NextSongKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Right</Value>
+    </Setting>
+    <Setting Name="PrevSlideKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Up</Value>
+    </Setting>
+    <Setting Name="NextSlideKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Down</Value>
+    </Setting>
+    <Setting Name="ExitPageKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Escape</Value>
+    </Setting>
+    <Setting Name="BlackScrKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">B</Value>
+    </Setting>
+    <Setting Name="RepeatKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">R</Value>
+    </Setting>
+    <Setting Name="HelpKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">F1</Value>
+    </Setting>
+    <Setting Name="BGImg" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Public\Pictures\Sample Pictures\Desert Landscape.jpg</Value>
+    </Setting>
+    <Setting Name="BGImgCheck" Type="System.String" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DisplayKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Hallelujah_2015.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Hallelujah_2015.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="Hallelujah_2015.MySettings.DBConnection" connectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Hallelujah.mdf;Integrated Security=True;Connect Timeout=30"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.1" />
+    </startup>
+    <applicationSettings>
+        <Hallelujah_2015.MySettings>
+            <setting name="KeyList" serializeAs="Xml">
+                <value>
+                    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <string>Ab</string>
+                        <string>A major</string>
+                        <string>A minor</string>
+                        <string>A#</string>
+                        <string>Bb</string>
+                        <string>B major</string>
+                        <string>B minor</string>
+                        <string>C major</string>
+                        <string>C minor</string>
+                        <string>C#</string>
+                        <string>Db</string>
+                        <string>D major</string>
+                        <string>D minor</string>
+                        <string>D#</string>
+                        <string>Eb</string>
+                        <string>E major</string>
+                        <string>E minor</string>
+                        <string>F major</string>
+                        <string>F minor</string>
+                        <string>F#</string>
+                        <string>Gb</string>
+                        <string>G major</string>
+                        <string>G minor</string>
+                        <string>G#</string>
+                    </ArrayOfString>
+                </value>
+            </setting>
+            <setting name="TimeSignList" serializeAs="Xml">
+                <value>
+                    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <string>2/4</string>
+                        <string>3/4</string>
+                        <string>4/4</string>
+                        <string>6/8</string>
+                    </ArrayOfString>
+                </value>
+            </setting>
+            <setting name="LyricsTypeList" serializeAs="Xml">
+                <value>
+                    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <string>Intro</string>
+                        <string>Stanza</string>
+                        <string>Pre-chorus</string>
+                        <string>Chorus</string>
+                        <string>Bridge</string>
+                    </ArrayOfString>
+                </value>
+            </setting>
+        </Hallelujah_2015.MySettings>
+    </applicationSettings>
+    <userSettings>
+        <Hallelujah_2015.MySettings>
+            <setting name="LyricsColor" serializeAs="String">
+                <value>White</value>
+            </setting>
+            <setting name="TitleColor" serializeAs="String">
+                <value>Yellow</value>
+            </setting>
+            <setting name="LyricsFont" serializeAs="String">
+                <value>Microsoft Sans Serif, 24pt, style=Bold</value>
+            </setting>
+            <setting name="TitleFont" serializeAs="String">
+                <value>Microsoft Sans Serif, 36pt, style=Bold</value>
+            </setting>
+            <setting name="BGColor" serializeAs="String">
+                <value>Black</value>
+            </setting>
+            <setting name="JumpSong1Key" serializeAs="String">
+                <value>D1</value>
+            </setting>
+            <setting name="JumpSong2Key" serializeAs="String">
+                <value>D2</value>
+            </setting>
+            <setting name="JumpSong3Key" serializeAs="String">
+                <value>D3</value>
+            </setting>
+            <setting name="JumpSong4Key" serializeAs="String">
+                <value>D4</value>
+            </setting>
+            <setting name="JumpSong5Key" serializeAs="String">
+                <value>D5</value>
+            </setting>
+            <setting name="JumpSong6Key" serializeAs="String">
+                <value>D6</value>
+            </setting>
+            <setting name="JumpSong7Key" serializeAs="String">
+                <value>D7</value>
+            </setting>
+            <setting name="JumpSong8Key" serializeAs="String">
+                <value>D8</value>
+            </setting>
+            <setting name="JumpSong9Key" serializeAs="String">
+                <value>D9</value>
+            </setting>
+            <setting name="JumpSong10Key" serializeAs="String">
+                <value>D0</value>
+            </setting>
+            <setting name="PrevSongKey" serializeAs="String">
+                <value>Left</value>
+            </setting>
+            <setting name="NextSongKey" serializeAs="String">
+                <value>Right</value>
+            </setting>
+            <setting name="PrevSlideKey" serializeAs="String">
+                <value>Up</value>
+            </setting>
+            <setting name="NextSlideKey" serializeAs="String">
+                <value>Down</value>
+            </setting>
+            <setting name="ExitPageKey" serializeAs="String">
+                <value>Escape</value>
+            </setting>
+            <setting name="BlackScrKey" serializeAs="String">
+                <value>B</value>
+            </setting>
+            <setting name="RepeatKey" serializeAs="String">
+                <value>R</value>
+            </setting>
+            <setting name="HelpKey" serializeAs="String">
+                <value>F1</value>
+            </setting>
+            <setting name="BGImg" serializeAs="String">
+                <value>C:\Users\Public\Pictures\Sample Pictures\Desert Landscape.jpg</value>
+            </setting>
+            <setting name="BGImgCheck" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="DisplayKey" serializeAs="String">
+                <value>D</value>
+            </setting>
+        </Hallelujah_2015.MySettings>
+    </userSettings>
+</configuration>
