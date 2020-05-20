@@ -1,0 +1,58 @@
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Hallelujah.mdf
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Hallelujah_log.ldf
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Hallelujah 2015.exe.config
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Hallelujah 2015.exe.manifest
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Hallelujah 2015.application
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Hallelujah 2015.exe
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Hallelujah 2015.pdb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Hallelujah 2015.xml
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\BackgroundManager.baml
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\DBManager.baml
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\EditSong.baml
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\MainWindow.baml
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\PresentationKeys.baml
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\ShortcutKey.baml
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\BackgroundManager.g.vb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\DBManager.g.vb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\EditSong.g.vb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\MainWindow.g.vb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\PresentationKeys.g.vb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\PresentationPage.g.vb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\ShortcutKey.g.vb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Application.g.vb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah 2015_Content.g.vb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah 2015_MarkupCompile.cache
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah 2015_MarkupCompile.lref
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\PresentationPage.baml
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah 2015.g.resources
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah_2015.AboutBox.resources
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah_2015.Resources.resources
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah 2015.vbproj.GenerateResource.Cache
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah 2015.exe.manifest
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah 2015.application
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah 2015.exe
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah 2015.xml
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah 2015.pdb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\HelpFile.baml
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\HelpFile.g.vb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\Hallelujah 2015.vbprojResolveAssemblyReference.cache
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\PresentationSettings.g.vb
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\PresentationSettings.baml
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\ColorPicker.baml
+C:\Users\Reon\documents\visual studio 2013\Projects\Hallelujah 2015\Hallelujah 2015\obj\Release\ColorPicker.g.vb

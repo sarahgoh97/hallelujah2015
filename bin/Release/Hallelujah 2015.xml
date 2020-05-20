@@ -1,0 +1,226 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Hallelujah2015
+</name>
+</assembly>
+<members>
+<member name="M:Hallelujah_2015.PresentationSettings.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Hallelujah_2015.PresentationSettings">
+	<summary>
+PresentationSettings
+</summary>
+</member><member name="M:Hallelujah_2015.EditSong.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Hallelujah_2015.EditSong">
+	<summary>
+EditSong
+</summary>
+</member><member name="M:Hallelujah_2015.PresentationKeys.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Hallelujah_2015.PresentationKeys">
+	<summary>
+PresentationKeys
+</summary>
+</member><member name="M:Hallelujah_2015.ColorPicker.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Hallelujah_2015.ColorPicker">
+	<summary>
+ColorPicker
+</summary>
+</member><member name="M:Hallelujah_2015.HelpFile.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Hallelujah_2015.HelpFile">
+	<summary>
+HelpFile
+</summary>
+</member><member name="M:Hallelujah_2015.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Hallelujah_2015.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:Hallelujah_2015.Application">
+	<summary>
+Application
+</summary>
+</member><member name="M:Hallelujah_2015.BackgroundManager.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Hallelujah_2015.BackgroundManager">
+	<summary>
+BackgroundManager
+</summary>
+</member><member name="M:Hallelujah_2015.DBManager.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Hallelujah_2015.DBManager">
+	<summary>
+DBManager
+</summary>
+</member><member name="M:Hallelujah_2015.PresentationPage.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Hallelujah_2015.PresentationPage">
+	<summary>
+PresentationPage
+</summary>
+</member><member name="M:Hallelujah_2015.ShortcutKey.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Hallelujah_2015.ShortcutKey">
+	<summary>
+ShortcutKey
+</summary>
+</member><member name="M:Hallelujah_2015.MainWindow.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Hallelujah_2015.MainWindow">
+	<summary>
+MainWindow
+</summary>
+</member><member name="P:Hallelujah_2015.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:Hallelujah_2015.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Hallelujah_2015.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:Hallelujah_2015.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:Hallelujah_2015.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:Hallelujah_2015.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources._Next">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Add">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Cancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Check">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Download">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Edit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.hallelujah">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Hard_Disk">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Help">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Information">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Keyboard">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Log_Out">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Play">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Presentation">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Previous">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Settings">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Stock_Index_Down">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Stock_Index_Up">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Hallelujah_2015.My.Resources.Resources.Upload">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="T:Hallelujah_2015.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,150 @@
+﻿<Window x:Class="EditSong"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Height="700" Width="700" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#FFF5C072" BorderBrush="#FF3E1B06" WindowStyle="None" BorderThickness="1">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="Control.IsEnabled" Value="False">
+                    <Setter Property="Control.Opacity" Value="0.3" />
+                </Trigger>
+                <Trigger Property="Control.IsEnabled" Value="True">
+                    <Setter Property="Control.Opacity" Value="0.8" />
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Opacity" Value="1"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="#FF6B2D09"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Save" Executed="ESSave" CanExecute="SaveCanExecute"/>
+        <CommandBinding Command="ApplicationCommands.Stop" Executed="ESCancel" />
+    </Window.CommandBindings>
+    <Grid>
+        <Label Name="ESTitleLabel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0">Title *</Label>
+        <Label Name="ESWriterLabel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,35,0,0">Writer</Label>
+        <Label Name="ESRefLabel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,60,0,0">Reference</Label>
+        <Label Name="ESKeyLabel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,85,0,0">Key *</Label>
+        <Label Name="ESTimeSignLabel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,85,0,0">Time Signature *</Label>
+        <Label Name="ESLyricsTypeLabel" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,110,0,0">Lyrics Type</Label>
+        <Label Name="ESDefSeqLabel" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,200,0">Default Sequence</Label>
+        <TextBox Name="ESTitleTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,10,0,0" Width="230" Height="22" />
+        <TextBox Name="ESWriterTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,35,0,0" Width="230" Height="22" />
+        <TextBox Name="ESRefTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,60,0,0" Width="230" Height="22" />
+        <TextBox Name="ESLyricsTextBox" Margin="15,310,15,80" TextWrapping="Wrap" AcceptsReturn="True" />
+        <ComboBox Name="ESKeyComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,85,0,0" Width="75" />
+        <ComboBox Name="ESTimeSignComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="235,85,0,0" Width="75" />
+        <ComboBox Name="ESLyricsTypeComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,283,0,0" Width="120" />
+        <ListBox Name="ESLyricsTypeListBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,135,0,0" Height="120" Width="295" />
+        <ListBox Name="ESDefSeqListBox" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,35,15,0" Height="220" Width="295" />
+        <Button Name="ESAddButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="323,150,0,0" Height="50" Width="50" IsEnabled="False">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Next.ico"/>
+            </Button.Background>
+            <Button.ToolTip>
+                <TextBlock>
+                    <Run FontWeight="Bold" Text="Add to Default Sequence"/>
+                    <LineBreak/>
+                    Add selected lyrics type to default sequence
+                </TextBlock>
+            </Button.ToolTip>
+        </Button>
+        <Button Name="ESRemoveButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="323,205,0,0" Height="50" Width="50" IsEnabled="False">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Previous.ico"/>
+            </Button.Background>
+            <Button.ToolTip>
+                <TextBlock>
+                    <Run FontWeight="Bold" Text="Remove from Default Sequence"/>
+                    <LineBreak/>
+                    Remove selected lyrics type from default sequence
+                </TextBlock>
+            </Button.ToolTip>
+        </Button>
+        <Button Name="ESUpButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="323,36,0,0" Height="50" Width="50" IsEnabled="False">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Stock Index Up.ico"/>
+            </Button.Background>
+            <Button.ToolTip>
+                <TextBlock>
+                    <Run FontWeight="Bold" Text="Shift Up"/>
+                    <LineBreak/>
+                    Shift up selected lyrics type in default sequence
+                </TextBlock>
+            </Button.ToolTip>
+        </Button>
+        <Button Name="ESDownButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="323,91,0,0" Height="50" Width="50" IsEnabled="False">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Stock Index Down.ico"/>
+            </Button.Background>
+            <Button.ToolTip>
+                <TextBlock>
+                    <Run FontWeight="Bold" Text="Shift Down"/>
+                    <LineBreak/>
+                    Shift down selected lyrics type in default sequence
+                </TextBlock>
+            </Button.ToolTip>
+        </Button>
+        <Button Name="ESSaveChangesButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,265,0,0" Height="40" Width="40" IsEnabled="False">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Save.ico"/>
+            </Button.Background>
+            <Button.ToolTip>
+                <TextBlock>
+                    <Run FontWeight="Bold" Text="Save Lyrics Type"/>
+                    <LineBreak/>
+                    Save changes to new or selected lyrics type
+                </TextBlock>
+            </Button.ToolTip>
+        </Button>
+        <Button Name="ESDeleteButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,265,0,0" Height="40" Width="40" IsEnabled="False">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Delete.ico"/>
+            </Button.Background>
+            <Button.ToolTip>
+                <TextBlock>
+                    <Run FontWeight="Bold" Text="Delete Lyrics Type"/>
+                    <LineBreak/>
+                    Delete selected lyrics type
+                </TextBlock>
+            </Button.ToolTip>
+        </Button>
+        <Button Name="ESOKButton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,90,15" Height="50" Width="50" Command="ApplicationCommands.Save">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Check.ico"/>
+            </Button.Background>
+            <Button.ToolTip>
+                <TextBlock>
+                    <Run FontWeight="Bold" Text="Save Changes (Ctrl+S)"/>
+                    <LineBreak/>
+                    Save changes to song and return to main window
+                </TextBlock>
+            </Button.ToolTip>
+        </Button>
+        <Button Name="ESCancelButton" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,25,15" Height="50" Width="50" Command="ApplicationCommands.Stop">
+            <Button.Background>
+                <ImageBrush ImageSource="Resources/Cancel.ico"/>
+            </Button.Background>
+            <Button.ToolTip>
+                <TextBlock>
+                    <Run FontWeight="Bold" Text="Discard Changes (Esc)"/>
+                    <LineBreak/>
+                    Discard all changes and return to main window
+                </TextBlock>
+            </Button.ToolTip>
+        </Button>
+        <Label Content="* Mandatory Field" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,723,0,0" />
+    </Grid>
+</Window>
